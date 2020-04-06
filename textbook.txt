@@ -1,0 +1,7 @@
+***SQLite***
+.tables // show tables
+.databases // show databases
+
+sqlite3 laravel.db // login to DB
+
+SELECT * FROM questionnaires; // show records in table
