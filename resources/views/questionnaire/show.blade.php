@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="card-footer">
-                        <form action="/questionnaires/{{ $quesionnaire->id }}/questions" method="post">
+                        <form action="/questionnaires/{{ $questionnaire->id }}/questions/{{ $question->id }}" method="post">
                             @method('DELETE')
                             @csrf
                             <button type="submit" class="btn btn-sm btn-outline-danger">Delete Question</button>
